@@ -1,0 +1,55 @@
+{
+  "name": "ap-swap",
+  "version": "0.1.0",
+  "description": "An Uniswap MVP - ERC20 Crypto Currency Xchange",
+  "author": "abhinav.prakash319@gmail.com",
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-preset-stage-3": "6.24.1",
+    "babel-register": "6.26.0",
+    "bootstrap": "4.3.1",
+    "chai": "^4.3.7",
+    "chai-as-promised": "7.1.1",
+    "chai-bignumber": "3.0.0",
+    "react": "16.8.4",
+    "react-bootstrap": "1.0.0-beta.5",
+    "react-dom": "16.8.4",
+    "react-scripts": "2.1.3",
+    "truffle": "5.0.5",
+    "web3": "1.0.0-beta.55"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
+    "@nomiclabs/hardhat-etherscan": "^3.1.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "dotenv": "^16.0.3",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.6",
+    "hardhat-contract-sizer": "^2.7.0",
+    "hardhat-deploy": "^0.11.22",
+    "hardhat-gas-reporter": "^1.0.9",
+    "prettier": "^2.8.3",
+    "prettier-plugin-solidity": "^1.1.1",
+    "solhint": "^3.3.8",
+    "solidity-coverage": "^0.8.2"
+  }
+}
